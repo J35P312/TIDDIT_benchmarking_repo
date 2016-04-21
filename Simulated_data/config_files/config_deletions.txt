@@ -1,0 +1,8 @@
+chromosomes=chr15,chr16,chr17,chr20
+homozygozity_rate=0.25
+min_dist=100000
+balanced_inter_chromosomal_translocations=0,10000,100000,0
+unbalanced_inter_chromosomal_translocations=0,10000,100000,0
+inversions=0,0,0
+deletions=700,10000,100000
+tandem_duplications=0,10000,100000
