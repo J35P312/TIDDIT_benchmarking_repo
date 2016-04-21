@@ -6,9 +6,6 @@ Contains the scripts used to create the simulated bam files, run the callers as 
 N
 =========
 Contains the scripts used to create the simulated bam files, run the callers as well as counting the precision and specificity on N
-database
+Histogram
 =========
 contains the commands used to generate the databases, as well as the script used to generate the plots
-query
-=====
-The scripts used to compare the called variants with the validated/simulated variants
