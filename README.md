@@ -10,7 +10,4 @@ ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/NIST_NA12878_HG001_HiSeq_
 
 database
 =========
-contains the commands used to generate the databases, as well as the script used to generate the plots
-query
-=====
-The scripts used to compare the called variants with the validated/simulated variants
+contains the commands used to generate the databases, as well as the R script used to generate the plots
