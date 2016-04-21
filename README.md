@@ -17,3 +17,5 @@ The scripts used to compare the called variants with the validated/simulated var
 callers
 =====
 One slurm script to run each caller
+=======
+contains the commands used to generate the databases, as well as the R script used to generate the plots
