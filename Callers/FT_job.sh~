@@ -1,0 +1,14 @@
+#! /bin/bash -l
+#SBATCH -A b2014152
+#SBATCH -J FT_P2109_162.job
+#SBATCH -p core
+#SBATCH -t 1-00:00:00
+#SBATCH -n 1 
+
+
+module load bioinfo-tools
+module load bwa
+module load samtools
+FINDTRANS=/home/jesperei/FindTranslocations/bin/FindTranslocations
+
+$FINDTRANS --sv  -b /proj/b2015110/nobackup/data/GIAB_NA12878_HG001_HiSeq_30x/data/RMNISTHS_30xdownsample.bam  -q 10 -o TIDDIT_final_10q_2s

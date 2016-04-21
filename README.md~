@@ -14,6 +14,3 @@ contains the commands used to generate the databases, as well as the script used
 query
 =====
 The scripts used to compare the called variants with the validated/simulated variants
-callers
-=====
-One slurm script to run each caller
