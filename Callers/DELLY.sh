@@ -1,16 +1,16 @@
 #! /bin/bash -l
 #SBATCH -A b2015375
-#SBATCH -o /pica/v10/b2014152/opt/NEWEST_FindSV/FindSV/output/P2109/Delly/sbatch_out/DellyTra_P2109_162.out
-#SBATCH -e /pica/v10/b2014152/opt/NEWEST_FindSV/FindSV/output/P2109/Delly/sbatch_err/DellyTra_P2109_162.err
-#SBATCH -J DellyTra_P2109_162.job
+#SBATCH -J Delly_benchmark
 #SBATCH -p core
-#SBATCH -t 3-00:00:00
+#SBATCH -t 4-00:00:00
 
 #bam file is argument 1, output prefix is $2
 module load bioinfo-tools
 module load delly
+module load vcftools
 
 delly -t TRA -o $2.tra.vcf -g $1
 delly -t DEL -o $2.del.vcf -g $1
 delly -t DUP -o $2.dup.vcf -g $1
 delly -t INV -o $2.inv.vcf -g $1
+vcf-concat $2.tra.vcf $2.del.vcf $2.dup.vcf $2.inv.vcf > $2.dellySV.vcf
