@@ -1,0 +1,165 @@
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Parsing file benchmark_sample_sorted.bam ...
+Allocating memory ...
+Done.
+Filling and saving tree for 'chr1' ...
+Filling and saving tree for 'chr2' ...
+Filling and saving tree for 'chr3' ...
+Filling and saving tree for 'chr20' ...
+Filling and saving tree for 'chr21' ...
+Writing histograms ... 
+Total of 106662574 reads were placed.
+Allocating memory ...
+Done.
+Calculating histograms with bin size of 500 for 'chr1' ...
+Making directory bin_500 ...
+Making GC histogram for 'chr1' ...
+Done.
+Calculating histograms with bin size of 500 for 'chr2' ...
+Making GC histogram for 'chr2' ...
+Done.
+Calculating histograms with bin size of 500 for 'chr3' ...
+Making GC histogram for 'chr3' ...
+Done.
+Calculating histograms with bin size of 500 for 'chr20' ...
+Making GC histogram for 'chr20' ...
+Done.
+Calculating histograms with bin size of 500 for 'chr21' ...
+Making GC histogram for 'chr21' ...
+Done.
+Partitioning RD signal for 'chr1' with bin size of 500 ...
+Average RD per bin is 62.7493 +- 10.6576
+Bin band is 2
+Bin band is 3
+Bin band is 4
+Bin band is 5
+Bin band is 6
+Bin band is 7
+Bin band is 8
+Bin band is 10
+Bin band is 12
+Bin band is 14
+Bin band is 16
+Bin band is 20
+Bin band is 24
+Bin band is 28
+Bin band is 32
+Bin band is 40
+Bin band is 48
+Bin band is 56
+Bin band is 64
+Bin band is 80
+Bin band is 96
+Bin band is 112
+Bin band is 128
+Partitioning RD signal for 'chr2' with bin size of 500 ...
+Average RD per bin is 62.7493 +- 10.6576
+Bin band is 2
+Bin band is 3
+Bin band is 4
+Bin band is 5
+Bin band is 6
+Bin band is 7
+Bin band is 8
+Bin band is 10
+Bin band is 12
+Bin band is 14
+Bin band is 16
+Bin band is 20
+Bin band is 24
+Bin band is 28
+Bin band is 32
+Bin band is 40
+Bin band is 48
+Bin band is 56
+Bin band is 64
+Bin band is 80
+Bin band is 96
+Bin band is 112
+Bin band is 128
+Partitioning RD signal for 'chr3' with bin size of 500 ...
+Average RD per bin is 62.7493 +- 10.6576
+Bin band is 2
+Bin band is 3
+Bin band is 4
+Bin band is 5
+Bin band is 6
+Bin band is 7
+Bin band is 8
+Bin band is 10
+Bin band is 12
+Bin band is 14
+Bin band is 16
+Bin band is 20
+Bin band is 24
+Bin band is 28
+Bin band is 32
+Bin band is 40
+Bin band is 48
+Bin band is 56
+Bin band is 64
+Bin band is 80
+Bin band is 96
+Bin band is 112
+Bin band is 128
+Partitioning RD signal for 'chr20' with bin size of 500 ...
+Average RD per bin is 62.7493 +- 10.6576
+Bin band is 2
+Bin band is 3
+Bin band is 4
+Bin band is 5
+Bin band is 6
+Bin band is 7
+Bin band is 8
+Bin band is 10
+Bin band is 12
+Bin band is 14
+Bin band is 16
+Bin band is 20
+Bin band is 24
+Bin band is 28
+Bin band is 32
+Bin band is 40
+Bin band is 48
+Bin band is 56
+Bin band is 64
+Bin band is 80
+Bin band is 96
+Bin band is 112
+Bin band is 128
+Partitioning RD signal for 'chr21' with bin size of 500 ...
+Average RD per bin is 62.7493 +- 10.6576
+Bin band is 2
+Bin band is 3
+Bin band is 4
+Bin band is 5
+Bin band is 6
+Bin band is 7
+Bin band is 8
+Bin band is 10
+Bin band is 12
+Bin band is 14
+Bin band is 16
+Bin band is 20
+Bin band is 24
+Bin band is 28
+Bin band is 32
+Bin band is 40
+Bin band is 48
+Bin band is 56
+Bin band is 64
+Bin band is 80
+Bin band is 96
+Bin band is 112
+Bin band is 128
+Reading calls ...
+Can't parse sequence for chromosome chr1.
+Can't parse sequence for chromosome chr2.
+Can't parse sequence for chromosome chr3.
+Can't parse sequence for chromosome chr20.
+Can't parse sequence for chromosome chr21.

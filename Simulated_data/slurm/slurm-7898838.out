@@ -1,0 +1,121 @@
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+[samopen] SAM header is present: 93 sequences.
+Sourcing executables from /sw/apps/bioinfo/LUMPY/0.2.12/milou/bin/lumpyexpress.config ...
+
+Checking for required python modules (/sw/comp/python/2.7.6_milou/bin/python)...
+Calculating insert distributions... 
+Library read groups: CreateTranslocations
+Library read length: 150
+Removed 141 outliers with isize >= 8523
+done
+0
+Running LUMPY... 
+chr1	1000000
+chr2	1000000
+chr3	1000000
+chr4	1000000
+chr4	2000000
+chr4	4000000
+chr5	1000000
+chr5	4000000
+chr5	8000000
+chr6	1000000
+chr6	4000000
+chr6	8000000
+chr7	1000000
+chr7	2000000
+chr7	4000000
+chrX	1000000
+chr8	1000000
+chr9	1000000
+chr10	1000000
+chr10	4000000
+chr10	8000000
+chr11	1000000
+chr11	4000000
+chr12	1000000
+chr12	2000000
+chr13	1000000
+chr13	2000000
+chr13	4000000
+chr13	8000000
+chr13	16000000
+chr13	32000000
+chr14	1000000
+chr14	2000000
+chr14	4000000
+chr14	8000000
+chr14	16000000
+chr14	32000000
+chr15	1000000
+chr15	2000000
+chr15	4000000
+chr15	8000000
+chr15	16000000
+chr15	32000000
+chr16	1000000
+chr16	2000000
+chr16	4000000
+chr16	16000000
+chr17	1000000
+chr18	1000000
+chr20	1000000
+chrY	1000000
+chr19	1000000
+chr22	1000000
+chr22	2000000
+chr22	4000000
+chr22	8000000
+chr22	16000000
+chr22	32000000
+chr21	1000000
+chr21	2000000
+chr21	4000000
+chr21	8000000
+chr21	16000000
+chr6_ssto_hap7	1000000
+chr6_ssto_hap7	2000000
+chr6_ssto_hap7	4000000
+chr6_mcf_hap5	1000000
+chr6_mcf_hap5	2000000
+chr6_cox_hap2	1000000
+chr6_cox_hap2	4000000
+chr6_mann_hap4	1000000
+chr6_mann_hap4	2000000
+chr6_apd_hap1	1000000
+chr6_apd_hap1	2000000
+chr6_qbl_hap6	1000000
+chr6_qbl_hap6	2000000
+chr6_dbb_hap3	1000000
+chr6_dbb_hap3	2000000
+chr17_ctg5_hap1	1000000
+chr1_gl000192_random	1000000
+chr4_gl000194_random	1000000
+chr4_gl000193_random	1000000
+chrUn_gl000222	1000000
+chrUn_gl000212	1000000
+chrUn_gl000219	1000000
+chrUn_gl000215	1000000
+chrUn_gl000217	1000000
+chrUn_gl000211	1000000
+chrUn_gl000213	1000000
+chrUn_gl000218	1000000
+chrUn_gl000221	1000000
+chrUn_gl000214	1000000
+chrUn_gl000227	1000000
+chr1_gl000191_random	1000000
+chr9_gl000198_random	1000000
+chrUn_gl000237	1000000
+chrUn_gl000243	1000000
+chrUn_gl000240	1000000
+chrUn_gl000244	1000000
+chrUn_gl000245	1000000
+chrUn_gl000247	1000000
+chrUn_gl000239	1000000
+chr21_gl000210_random	1000000
+LUMPY Express done

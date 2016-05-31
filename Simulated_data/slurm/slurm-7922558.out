@@ -1,0 +1,153 @@
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+
+Activating Modules:
+  1) fermikit/r178  2) vcftools/0.1.14
+
+When building with cmake, include this option on the cmake command line:
+    -DBoost_NO_BOOST_CMAKE=ON
+If you find that you are having trouble finding the Boost libraries during linking
+with CMake, try unsetting the LIBRARY_PATH environmental variable only while running
+cmake itself:
+    LIBRARY_PATH= cmake .. -DBoost_NO_BOOST_CMAKE=ON
+For more information: module help boost
+To use multiple cores (eg, 16) within a node: export OMP_NUM_THREADS=16
+[2016-May-30 19:03:38] delly -t TRA -o benchmark.tra.vcf -g ref/hg19.fa benchmark_sample_sorted.bam 
+[2016-May-30 19:03:47] Paired-end clustering
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:05:19] Split-read alignment
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:07:12] Junction read annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:07:41] Breakpoint spanning coverage annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:07:50] Genotyping
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:07:54] Library statistics
+Sample: benchmark_sample_sorted
+RG: ID=CreateTranslocations,Median=502,MAD=352,LibLayout=2,MaxSizeCut=3670,MinSizeCut=0,DuplicateDiscordantPairs=0,UniqueDiscordantPairs=69003
+[2016-May-30 19:07:54] Done.
+[2016-May-30 19:07:54] delly -t DEL -o benchmark.del.vcf -g ref/hg19.fa benchmark_sample_sorted.bam 
+[2016-May-30 19:08:04] Paired-end clustering
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:10:55] Split-read alignment
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:14:57] Junction read annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:15:21] Breakpoint spanning coverage annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:17:55] Read-depth annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:22:11] Genotyping
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:23:10] Library statistics
+Sample: benchmark_sample_sorted
+RG: ID=CreateTranslocations,Median=502,MAD=352,LibLayout=2,MaxSizeCut=3670,MinSizeCut=0,DuplicateDiscordantPairs=0,UniqueDiscordantPairs=245268
+[2016-May-30 19:23:10] Done.
+[2016-May-30 19:23:10] delly -t DUP -o benchmark.dup.vcf -g ref/hg19.fa benchmark_sample_sorted.bam 
+[2016-May-30 19:23:19] Paired-end clustering
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:25:15] Split-read alignment
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:26:20] Junction read annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:26:40] Breakpoint spanning coverage annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:27:00] Read-depth annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:27:33] Genotyping
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:27:35] Library statistics
+Sample: benchmark_sample_sorted
+RG: ID=CreateTranslocations,Median=502,MAD=352,LibLayout=2,MaxSizeCut=3670,MinSizeCut=0,DuplicateDiscordantPairs=0,UniqueDiscordantPairs=32308
+[2016-May-30 19:27:35] Done.
+[2016-May-30 19:27:35] delly -t INV -o benchmark.inv.vcf -g ref/hg19.fa benchmark_sample_sorted.bam 
+[2016-May-30 19:27:45] Paired-end clustering
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:29:44] Split-read alignment
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:30:52] Junction read annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:31:13] Breakpoint spanning coverage annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:31:32] Read-depth annotation
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:31:52] Genotyping
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[2016-May-30 19:31:54] Library statistics
+Sample: benchmark_sample_sorted
+RG: ID=CreateTranslocations,Median=502,MAD=352,LibLayout=2,MaxSizeCut=3670,MinSizeCut=0,DuplicateDiscordantPairs=0,UniqueDiscordantPairs=42563
+[2016-May-30 19:31:54] Done.

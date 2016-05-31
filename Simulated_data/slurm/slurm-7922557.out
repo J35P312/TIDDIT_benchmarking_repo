@@ -1,0 +1,64 @@
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+
+Activating Modules:
+  1) fermikit/r178  2) vcftools/0.1.14
+
+LIBRARY STATISTICS
+	 total reads number 106932927
+	 total mapped reads 106932927
+	 total unmapped reads 0
+	 proper pairs 20674829
+	 split reads 0
+	 wrong distance 2817
+	 zero quality reads 0
+	 wrongly contig 161838
+	 singletons 0
+	total 106932927
+	Coverage statistics
+	C_A = 5.11135
+	S_A = 7.94821
+	C_M = 0.988356
+	C_W = 4.11563
+	C_S = 0
+	C_D = 0.00724794
+	Read length = 149
+	Mean Insert length = 871.203
+	Std Insert length = 1859.34
+----------
+library stats time consumption= 355s
+auto-config orientation: innie
+insert size threshold:4589
+working on seqence chr1
+working on seqence chr2
+working on seqence chr3
+working on seqence chr4
+working on seqence chr5
+working on seqence chr6
+working on seqence chr7
+working on seqence chrX
+working on seqence chr8
+working on seqence chr9
+working on seqence chr10
+working on seqence chr11
+working on seqence chr12
+working on seqence chr13
+working on seqence chr14
+working on seqence chr15
+working on seqence chr16
+working on seqence chr17
+working on seqence chr18
+working on seqence chr20
+working on seqence chrY
+working on seqence chr19
+working on seqence chr22
+working on seqence chr21
+working on seqence chr4_gl000194_random
+working on seqence chr4_gl000193_random
+working on seqence chrUn_gl000219
+working on seqence chrUn_gl000221
+variant calling time consumption= 173s

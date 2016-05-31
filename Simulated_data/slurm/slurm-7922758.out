@@ -1,0 +1,20 @@
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+Can't locate local/lib.pm in @INC (@INC contains: /home/jesperei/perl-5.18.2/lib/perl5/ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .).
+BEGIN failed--compilation aborted.
+
+Activating Modules:
+  1) bcftools/1.3  2) bwa/0.7.13  3) fermikit/r178  4) samtools/0.1.19
+
+bash -c '/sw/apps/bioinfo/fermikit/r178/milou/fermi.kit/bfc -s 3g -t 16 <(cat bnchmark_fermi.fastq) <(cat bnchmark_fermi.fastq) 2> bnchmark_fermi.ec.fq.gz.log | gzip -1 > bnchmark_fermi.ec.fq.gz'
+/sw/apps/bioinfo/fermikit/r178/milou/fermi.kit/bfc -1s 3g -k 61 -t 16 bnchmark_fermi.ec.fq.gz 2> bnchmark_fermi.flt.fq.gz.log | gzip -1 > bnchmark_fermi.flt.fq.gz
+/sw/apps/bioinfo/fermikit/r178/milou/fermi.kit/ropebwt2 -dNCr bnchmark_fermi.flt.fq.gz > bnchmark_fermi.flt.fmd 2> bnchmark_fermi.flt.fmd.log
+/sw/apps/bioinfo/fermikit/r178/milou/fermi.kit/fermi2 assemble -l 71 -m 113 -t 16 bnchmark_fermi.flt.fmd 2> bnchmark_fermi.pre.gz.log | gzip -1 > bnchmark_fermi.pre.gz
+/sw/apps/bioinfo/fermikit/r178/milou/fermi.kit/fermi2 simplify -CSo 76 -m 113 -T 71 bnchmark_fermi.pre.gz 2> bnchmark_fermi.mag.gz.log | gzip -1 > bnchmark_fermi.mag.gz
+[bam_header_read] EOF marker is absent. The input is probably truncated.
+Pass 1: computing average depth at variant sites...
+Average depth: 17.71
+Max depth cutoff: 34.54
+Pass 2: applying filters...
