@@ -8,7 +8,3 @@ The config file used to simulate the bam is located in the config_files director
 The genome was simualated with a coverage of 20x and std insert size 50. Note that only a few chromosomes were simulated(1,2,3,20,21).
 Use the generate_bam_file.sh script to generate a bam file similar to the one used in the TIDDIT article
 
-the vcf folder contains the vcf files of all the tested callers.
-Lumpy,TIDDIT and Manta outputs mate breakpoints for each break end event. Thus these mates needs to be filtered so that ony one variant is reported per event.
-These filtered vcf files and the script used for filtering is found in filtered_Lumpy_TIDDIT_manta
-the db file contains all the simulated variants
