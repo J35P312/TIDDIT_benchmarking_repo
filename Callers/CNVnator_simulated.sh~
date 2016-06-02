@@ -13,8 +13,8 @@ module load CNVnator
 cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 chr19 -tree $1
 cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 chr19 -his 200 -d $2
 cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 chr19 -stat 200 >> $3.cnvnator.log 
-cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 chr19 -partition 200 
-cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 chr19 -call 200 > $3.out 
+cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 -partition 200 
+cnvnator -root $3.root  -chrom chr1 chr2 chr3 chr20 chr21 -call 200 > $3.out 
 cnvnator2VCF.pl $3.out  >  $3.cnvnator.vcf 
 
 
