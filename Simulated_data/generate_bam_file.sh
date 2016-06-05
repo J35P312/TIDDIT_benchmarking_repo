@@ -1,6 +1,6 @@
 #!/bin/bash -l
  
-#SBATCH -A b2014152
+#SBATCH -A b2015375
 #SBATCH -p core
 #SBATCH -n 8
 #SBATCH -t 48:00:00
@@ -10,4 +10,4 @@ module load bioinfo-tools
 module load bwa
 module load samtools
  
-python wrapper.py --threads 8 --coverage 20 --fa ref/hg19.fa --prefix benchmark_sample --config config.txt
+python CreateTranslocations/wrapper.py --threads 8 --coverage 25 --fa ref/hg19.fa --prefix benchmark_sample --config config.txt
