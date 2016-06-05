@@ -1,0 +1,3 @@
+[submodule "Simulated_data/CreateTranslocations"]
+	path = Simulated_data/CreateTranslocations
+	url = https://github.com/J35P312/CreateTranslocations.git
