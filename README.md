@@ -14,4 +14,11 @@ database
 contains the commands used to generate the databases, as well as the script used to generate the plots
 callers
 =====
-One slurm script to run each caller
+One slurm script to run each caller. The following versions of the callers was used for bencmarking:
+cnvnator v0.3.2
+delly  v0.7.2
+fermikit r178
+TIDDIT-1.0
+Lumpy 0.2.12
+Manta 0.27.1
+
