@@ -10,3 +10,4 @@ the vcf folder contains the vcf files of all the tested callers.
 Lumpy,TIDDIT and Manta outputs mate breakpoints for each break end event. Thus these mates needs to be filtered so that ony one variant is reported per event.
 These filtered vcf files and the script used for filtering is found in filtered_Lumpy_TIDDIT_manta
 the db file contains all the simulated variants
+THe precision and sensitivity of the callers is calculated using the benchmarking_simulated.sh script
