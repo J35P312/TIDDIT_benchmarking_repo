@@ -11,7 +11,8 @@ NA12878
 =========
 Contains the scripts used to count the precision and specificity on NA12878. The deletions are validated through the Genome in a Bottle initiative. The downloaded deletions as well as the bam files are available via this web site:
 ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/
-The downsampled(30x) bam file was used to benchmark the callers.
+The downsampled(30x) bam file was used to benchmark the callers:
+/proj/b2015110/nobackup/data/GIAB_NA12878_HG001_HiSeq_30x/data/RMNISTHS_30xdownsample.bam
 
 database
 =========
